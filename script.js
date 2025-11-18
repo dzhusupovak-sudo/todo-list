@@ -31,6 +31,8 @@ function addStudent() {
     renderStudents()
 }
 
+
+
 function removeStudent(id) {
     students = students.filter(el => {
         if (el.id != id) {
