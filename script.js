@@ -41,7 +41,6 @@ function removeStudent(id) {
     })
 }
 
-add.addEventListener('click', addStudent)
 
 list.addEventListener('click', (event) => {
     if (event.target.classList.contains('delete-btn')) {
